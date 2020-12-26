@@ -145,20 +145,20 @@
                 </div>
                 <div class="column right">
                     <div class="text">Message</div>
-                    <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScEI0HnZ6J5uXxWppbP7pLteMo6erB1lDeOxcAphcgXbrDpEg/formResponse">
+                    <form method="post" autocomplete="off" name="google-sheet">
                         <div class="fields">
                             <div class="field name">
-                                <input type="text" name="entry.1365608299" placeholder="Name" required>
+                                <input type="text" name="Name" placeholder="Name" required>
                             </div>
                             <div class="field email">
-                                <input type="email" name="entry.2096934325" placeholder="Email" required>
+                                <input type="email" name="Email" placeholder="Email" required>
                             </div>
                         </div>
                         <div class="field">
-                            <input type="text" name="entry.2092764833" placeholder="Subject" required>
+                            <input type="text" name="Subject" placeholder="Subject" required>
                         </div>
                         <div class="field textarea">
-                            <textarea cols="30" rows="10" name="entry.1815194166" placeholder="Message.." required></textarea>
+                            <textarea cols="30" rows="10" name="Message" placeholder="Message.." required></textarea>
                         </div>
                         <div class="button">
                             <button type="submit">Send message</button>
