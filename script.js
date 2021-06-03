@@ -69,7 +69,7 @@ $(document).ready(function(){
             }
         }
     });
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbz9MZopMB1kb5jFOkYTOovl3YU-Lg9ebfRuQadgq9ShSbQEYS5pP3dDzQ/exec'
+    const scriptURL = 'https://docs.google.com/forms/u/0/d/e/1FAIpQLScEI0HnZ6J5uXxWppbP7pLteMo6erB1lDeOxcAphcgXbrDpEg/formResponse'
     const form = document.forms['google-sheet']
 
     form.addEventListener('submit', e => {
